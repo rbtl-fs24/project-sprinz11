@@ -1,0 +1,35 @@
+You will use the `index.qmd` file to write your final report. This will be a Quarto document that will contain your analysis and visualizations. You will need to access the processed data from the `data/processed` folder using the `read_csv()` function.
+
+You will save the data underlying each displayed summary table and visualization in the `data/final` folder. This requires that each visualization and table is generated from an object that is not further transformed before the code for the visualization or table is written. Use the `write_csv()` function to save the data underlying each visualization and table in the `data/final` folder. Give the files the name of the label you have chosen inside the code-chunk. See example below.
+
+```{r}
+#| eval: true
+#| label: tbl-gapminder-mean
+#| tbl-cap: "Mean values of life expectancy, GDP per capita, and population by continent"
+
+# load libraries -------------------------------------
+
+library(gapminder)
+library(tidyverse)
+
+# data analysis --------------------------------------
+
+gapminder_mean <- gapminder |> 
+  pivot_longer(cols = c(lifeExp, gdpPercap, pop), 
+               names_to = "variable",
+               values_to = "value") |> 
+  group_by(continent, variable) |> 
+  summarise(mean = mean(value),
+            n = n()) |> 
+  pivot_wider(names_from = variable, 
+              values_from = mean) 
+
+# results display as table ---------------------------
+  
+gapminder_mean |> 
+  knitr::kable(digits = 0)
+
+# save data underlying the table ----------------------
+
+# write_csv(gapminder_mean, here::here("data/final/tbl-gapminder-mean.csv"))
+```
