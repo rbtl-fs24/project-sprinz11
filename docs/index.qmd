@@ -1,3 +1,64 @@
+---
+title: "The willingness to walk to separate waste"
+subtitle: "Capstone Project for the lecture 'Research Beyond the Lab' FS24"
+date: today
+author:
+  - name: "Sven Prinz"
+    orcid: 0009-0000-4485-1235
+    email: sprinz@ethz.ch
+    affiliation: 
+      - name: ETH Zurich
+        url: https://ethz.ch/de.html
+abstract: 
+  PUT ABSTRACT HERE
+license: "CC BY"
+#citation: 
+#  container-title: My Blog
+#  url: https://www.example.com
+#bibliography: references.bib
+#csl: apa.csl  # other csls https://github.com/citation-style-language/styles
+format:
+  html:
+    toc: true
+    toc-depth: 5
+    toc-expand: true
+    embed-resources: true
+#    fig-width: 6  
+#    fig-asp: 0.618    # the golden ratio, only adjust fig-asp in chunks where needed
+#    fig-align: center
+#    out-width: "70%"
+execute:
+  cache: true   # regularily clear out by knitr::clean_cache()
+# global chunk code options:
+#  warning: false
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(tidyverse)
+library(ggthemes)
+library(ggridges)
+library(gt)
+library(gtsummary)
+library(knitr)
+library(DT)
+```
+
+```{r}
+#| label: import-data
+#| include: false
+
+data_avail_wtw <- read_rds(here::here("data/processed/01-data_avail_wtw.rds"))
+open_answers <- read_rds(here::here("data/processed/02-open_answers.rds"))
+```
+
+# Task description
+
 You will use the `index.qmd` file to write your final report. This will be a Quarto document that will contain your analysis and visualizations. You will need to access the processed data from the `data/processed` folder using the `read_csv()` function.
 
 You will save the data underlying each displayed summary table and visualization in the `data/final` folder. This requires that each visualization and table is generated from an object that is not further transformed before the code for the visualization or table is written. Use the `write_csv()` function to save the data underlying each visualization and table in the `data/final` folder. Give the files the name of the label you have chosen inside the code-chunk. See example below.
