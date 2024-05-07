@@ -60,14 +60,53 @@ data_wide <- data_wide |>
   )))            # https://www.perplexity.ai/search/In-an-R-zSpzF9tWTUOpT8NO0PdLAA
 
 processed_open_answers <- data_wide |> 
-  select(-starts_with("avail"), -starts_with("wtw")) # |> 
-#  filter(!is.na("add_types"), !is.na("improvements"))
+  select(-starts_with("avail"), -starts_with("wtw")) |> 
+  filter(!(is.na(add_types) & is.na(improvements)))
 
 
+# Pivot wide to long ------------------------------------------------------
+## Is there a more elegant way to do this?
 
+#data_long <- data_wide |> 
+#  pivot_longer(cols = starts_with("avail"),
+#               names_to = "avail_waste_type",
+#               values_to = "avail_response") |> 
+#  pivot_longer(cols = starts_with("wtw"),
+#               names_to = "wtw_waste_type",
+#               values_to = "wtw_response")
+
+data_long_avail <- data_wide |> 
+  select(-starts_with("wtw")) |> 
+  pivot_longer(cols = starts_with("avail"),
+               names_to = "waste_type",
+               values_to = "avail_response") |> 
+  mutate(waste_type = str_remove(waste_type, pattern = "avail_"))
+
+data_long_wtw <- data_wide |> 
+  select(-starts_with("avail")) |> 
+  mutate(wtw_residual = NA,
+         .before = wtw_organic) |> 
+  pivot_longer(cols = starts_with("wtw"),
+               names_to = "waste_type",
+               values_to = "wtw_response") |> 
+  mutate(waste_type = str_remove(waste_type, pattern = "wtw_"))
+
+data_long <- left_join(data_long_avail, data_long_wtw) |> 
+  select(-add_types, -improvements)
+
+lvl_studies <- c("BSc", "MSc", "PhD", "Other", "Prefer not to say")
+lvl_avail <- c("cb", "ebw", "wl", "nu", "noa")
+lvl_wtw <- c("cr", "sb", "nb", "ac", "oc", "noa")
+
+data_long_fct <- data_long |> 
+  mutate(level_of_studies = factor(level_of_studies, levels = lvl_studies)) |> 
+  mutate(avail_response = factor(avail_response, levels = lvl_avail)) |> 
+  mutate(wtw_response = factor(wtw_response, levels = lvl_wtw))
+
+processed_data <- data_long_fct
 
 # Export processed data ---------------------------------------------------
 
-# write_rds(processed_data, "data/processed/01-data_on_whatever.rds")
+write_rds(processed_data, "data/processed/01-data_avail_wtw.rds")
 
 write_rds(processed_open_answers, "data/processed/02-open_answers.rds")
