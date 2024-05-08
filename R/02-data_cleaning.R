@@ -21,7 +21,7 @@ raw_data <- read_csv("data/raw/01-WTW_waste_sep.csv")
 preprocess <- raw_data |> 
   janitor::clean_names()
 
-consent_col_name <- "your_answers_to_this_questionnaire_may_be_used_for_research_purposes_and_will_be_stored_anonymously_without_the_storage_of_any_data_that_could_be_associated_with_you_as_an_individual"
+consent_col_name <- "your_responses_to_this_questionnaire_may_be_used_for_research_purposes_and_will_be_stored_anonymously_without_any_data_being_stored_that_can_be_associated_with_you_as_an_individual"
 
 count(preprocess, !!sym(consent_col_name))
 
@@ -42,12 +42,15 @@ data_wide <- preprocess |>
   mutate(id = seq(1:n()), .before = starts_with("what_institution")) |> 
   rename_all(~ col_names_wide)
 
+
+# I know the following code is not necessary because the long names are attached
+# further below again. But I decided to leave it in for learning reasons.
 data_wide <- data_wide |> 
   mutate(across(starts_with("avail_"), ~ case_when(
-    . == "I know where the closest bin is located." ~ "cb",
+    . == "I know where the nearest bin is located." ~ "nb",
     . == "I know it exists but I am not sure where." ~ "ebw",
-    . == "I do not know of one but I would like for it to be available." ~ "wl",
-    . == "I do not know of any and I would not use it." ~ "nu",
+    . == "I do not know of any but I would like for it to be available." ~ "wl",
+    . == "I do not know any and I would not use it." ~ "nu",
     . == "No answer" ~ "noa"
   ))) |> 
   mutate(across(starts_with("wtw_"), ~ case_when(
@@ -59,27 +62,29 @@ data_wide <- data_wide |>
     . == "No answer" ~ "noa"
   )))            # https://www.perplexity.ai/search/In-an-R-zSpzF9tWTUOpT8NO0PdLAA
 
+
 processed_open_answers <- data_wide |> 
   select(-starts_with("avail"), -starts_with("wtw")) |> 
   filter(!(is.na(add_types) & is.na(improvements)))
 
 
 # Pivot wide to long ------------------------------------------------------
-## Is there a more elegant way to do this?
 
 #data_long <- data_wide |> 
 #  pivot_longer(cols = starts_with("avail"),
 #               names_to = "avail_waste_type",
-#               values_to = "avail_response") |> 
+#               values_to = "avail_resp_short") |> 
 #  pivot_longer(cols = starts_with("wtw"),
 #               names_to = "wtw_waste_type",
-#               values_to = "wtw_response")
+#               values_to = "wtw_resp_short")
+
+## Is there a more elegant way to do this? -->
 
 data_long_avail <- data_wide |> 
   select(-starts_with("wtw")) |> 
   pivot_longer(cols = starts_with("avail"),
                names_to = "waste_type",
-               values_to = "avail_response") |> 
+               values_to = "avail_resp_short") |> 
   mutate(waste_type = str_remove(waste_type, pattern = "avail_"))
 
 data_long_wtw <- data_wide |> 
@@ -88,20 +93,36 @@ data_long_wtw <- data_wide |>
          .before = wtw_organic) |> 
   pivot_longer(cols = starts_with("wtw"),
                names_to = "waste_type",
-               values_to = "wtw_response") |> 
+               values_to = "wtw_resp_short") |> 
   mutate(waste_type = str_remove(waste_type, pattern = "wtw_"))
 
 data_long <- left_join(data_long_avail, data_long_wtw) |> 
   select(-add_types, -improvements)
 
+data_long <- data_long |> 
+  mutate(avail_resp_long = case_when(avail_resp_short == "nb" ~ "I know where the nearest bin is located.",
+                                     avail_resp_short == "ebw" ~ "I know it exists but I am not sure where.",
+                                     avail_resp_short == "wl" ~ "I do not know of any but I would like for it to be available.",
+                                     avail_resp_short == "nu" ~ "I do not know any and I would not use it.",
+                                     avail_resp_short == "noa" ~ "No answer"),
+         .after = avail_resp_short) |> 
+  mutate(wtw_resp_long = case_when(wtw_resp_short == "cr" ~ "In the room I am currently in",
+                                   wtw_resp_short == "sb" ~ "Within the same building",
+                                   wtw_resp_short == "nb" ~ "The building next door",
+                                   wtw_resp_short == "ac" ~ "Anywhere on the campus",
+                                   wtw_resp_short == "oc" ~ "Off campus",
+                                   wtw_resp_short == "noa" ~ "No answer"),
+         .after = wtw_resp_short)
+
+
 lvl_studies <- c("BSc", "MSc", "PhD", "Other", "Prefer not to say")
-lvl_avail <- c("cb", "ebw", "wl", "nu", "noa")
+lvl_avail <- c("nb", "ebw", "wl", "nu", "noa")
 lvl_wtw <- c("cr", "sb", "nb", "ac", "oc", "noa")
 
 data_long_fct <- data_long |> 
   mutate(level_of_studies = factor(level_of_studies, levels = lvl_studies)) |> 
-  mutate(avail_response = factor(avail_response, levels = lvl_avail)) |> 
-  mutate(wtw_response = factor(wtw_response, levels = lvl_wtw))
+  mutate(avail_resp_short = factor(avail_resp_short, levels = lvl_avail)) |> 
+  mutate(wtw_resp_short = factor(wtw_resp_short, levels = lvl_wtw))
 
 processed_data <- data_long_fct
 
