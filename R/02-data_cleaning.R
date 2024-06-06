@@ -143,6 +143,7 @@ processed_data <- data_long_fct
 # Export processed data ---------------------------------------------------
 
 write_rds(processed_data, "data/processed/01-data_avail_wtw.rds")
+write_csv(processed_data, "data/processed/01-data_avail_wtw.csv")
 
 write_rds(processed_open_answers, "data/processed/02-open_answers.rds")
-
+write_csv(processed_open_answers, "data/processed/02-open_answers.csv")

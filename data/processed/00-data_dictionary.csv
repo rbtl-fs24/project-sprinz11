@@ -3,14 +3,15 @@ file_name,variable_name,description,data_type
 01-data_avail_wtw.rds,institution,The institution the respondent belongs to,chr
 01-data_avail_wtw.rds,level_of_studies,The current level of studies of the respondent at their institution,fct
 01-data_avail_wtw.rds,main_campus,The campus at which the respondent spends most of their studies related time at,chr
-01-data_avail_wtw.rds,waste_type,The waste type for which the respondents availability and the willingness to walk is recorded,chr
+01-data_avail_wtw.rds,waste_type,The waste type for which the respondents availability and the willingness to walk is recorded,fct
 01-data_avail_wtw.rds,avail_resp_short,An acronym indicating the responents knowledge of and demand for different waste separation options,fct
 01-data_avail_wtw.rds,avail_resp_long,The spelled out meaning of the acronym in avail_resp_short,chr
 01-data_avail_wtw.rds,wtw_resp_short,An acronym indicating the responents willingness to walk (wtw) to separate produced waste of different types into the appropriate bin instead of disposing it into residual waste,fct
 01-data_avail_wtw.rds,wtw_resp_long,The spelled out meaning of the acronym in wtw_resp_short,chr
+01-data_avail_wtw.rds,wtw_resp_nr,The nummerical value corresponding to the levels of distance for wtw responses,int
 02-open_answers.rds,id,Unique identifier for the respective survey response,int
 02-open_answers.rds,institution,The institution the respondent belongs to,chr
 02-open_answers.rds,level_of_studies,The current level of studies of the respondent at their institution,chr
 02-open_answers.rds,main_campus,The campus at which the respondent spends most of their studies related time at,chr
-02-open_answers.rds,add_types,Further types of waste separation options the respondent would like to have,chr
-02-open_answers.rds,improvements,Suggestions for improving waste separation in their institution,chr
+02-open_answers.rds,add_types,Further types of waste for which the respondent would like a separate disposal option,chr
+02-open_answers.rds,improvements,Suggestions for improving waste separation at the respondents institution,chr

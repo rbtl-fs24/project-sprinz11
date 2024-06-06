@@ -1,0 +1,705 @@
+id,institution,level_of_studies,main_campus,waste_type,avail_resp_short,avail_resp_long,wtw_resp_short,wtw_resp_long,wtw_resp_nr
+1,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+1,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+1,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+1,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+1,ETH Zurich,MSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+1,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+1,ETH Zurich,MSc,ETH Zentrum,glass,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+1,ETH Zurich,MSc,ETH Zentrum,batteries,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+1,ETH Zurich,MSc,ETH Zentrum,electronic,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+1,ETH Zurich,MSc,ETH Zentrum,storage_media,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+1,ETH Zurich,MSc,ETH Zentrum,metal,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+1,ETH Zurich,MSc,ETH Zentrum,wood,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+1,ETH Zurich,MSc,ETH Zentrum,liquids,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+1,ETH Zurich,MSc,ETH Zentrum,cartridges,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+1,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,cb,I know where a bin is located nearby.,noa,No answer,NA
+1,ETH Zurich,MSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,noa,No answer,NA
+2,Other,MSc,Other,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+2,Other,MSc,Other,organic,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+2,Other,MSc,Other,pet,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+2,Other,MSc,Other,plastics,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+2,Other,MSc,Other,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+2,Other,MSc,Other,alu_cans,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+2,Other,MSc,Other,glass,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+2,Other,MSc,Other,batteries,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+2,Other,MSc,Other,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+2,Other,MSc,Other,storage_media,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+2,Other,MSc,Other,metal,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+2,Other,MSc,Other,wood,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+2,Other,MSc,Other,liquids,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+2,Other,MSc,Other,cartridges,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+2,Other,MSc,Other,coffee_capsules,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+2,Other,MSc,Other,textiles,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+3,ETH Zurich,MSc,ETH Hönggerberg,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+3,ETH Zurich,MSc,ETH Hönggerberg,organic,nu,I do not know any and I would not use it.,nb,The building next door,2
+3,ETH Zurich,MSc,ETH Hönggerberg,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+3,ETH Zurich,MSc,ETH Hönggerberg,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+3,ETH Zurich,MSc,ETH Hönggerberg,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+3,ETH Zurich,MSc,ETH Hönggerberg,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+3,ETH Zurich,MSc,ETH Hönggerberg,glass,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+3,ETH Zurich,MSc,ETH Hönggerberg,batteries,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+3,ETH Zurich,MSc,ETH Hönggerberg,electronic,cb,I know where a bin is located nearby.,noa,No answer,NA
+3,ETH Zurich,MSc,ETH Hönggerberg,storage_media,nu,I do not know any and I would not use it.,noa,No answer,NA
+3,ETH Zurich,MSc,ETH Hönggerberg,metal,nu,I do not know any and I would not use it.,noa,No answer,NA
+3,ETH Zurich,MSc,ETH Hönggerberg,wood,nu,I do not know any and I would not use it.,noa,No answer,NA
+3,ETH Zurich,MSc,ETH Hönggerberg,liquids,nu,I do not know any and I would not use it.,noa,No answer,NA
+3,ETH Zurich,MSc,ETH Hönggerberg,cartridges,nu,I do not know any and I would not use it.,noa,No answer,NA
+3,ETH Zurich,MSc,ETH Hönggerberg,coffee_capsules,nu,I do not know any and I would not use it.,noa,No answer,NA
+3,ETH Zurich,MSc,ETH Hönggerberg,textiles,ebw,I know it exists but I am not sure where.,noa,No answer,NA
+4,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+4,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,nb,The building next door,2
+4,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,paper,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,alu_cans,nu,I do not know any and I would not use it.,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,glass,nu,I do not know any and I would not use it.,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,electronic,noa,No answer,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,storage_media,cb,I know where a bin is located nearby.,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,metal,noa,No answer,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,wood,noa,No answer,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,liquids,noa,No answer,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,cartridges,noa,No answer,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,noa,No answer,sb,Within the same building,1
+4,ETH Zurich,MSc,ETH Zentrum,textiles,noa,No answer,sb,Within the same building,1
+5,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+5,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+5,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,nb,The building next door,2
+5,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+5,ETH Zurich,MSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+5,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,nb,The building next door,2
+5,ETH Zurich,MSc,ETH Zentrum,glass,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+5,ETH Zurich,MSc,ETH Zentrum,batteries,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+5,ETH Zurich,MSc,ETH Zentrum,electronic,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+5,ETH Zurich,MSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+5,ETH Zurich,MSc,ETH Zentrum,metal,ebw,I know it exists but I am not sure where.,nb,The building next door,2
+5,ETH Zurich,MSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+5,ETH Zurich,MSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+5,ETH Zurich,MSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+5,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+5,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+6,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+6,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+6,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+6,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+6,ETH Zurich,BSc,ETH Zentrum,paper,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+6,ETH Zurich,BSc,ETH Zentrum,alu_cans,ebw,I know it exists but I am not sure where.,nb,The building next door,2
+6,ETH Zurich,BSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+6,ETH Zurich,BSc,ETH Zentrum,batteries,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+6,ETH Zurich,BSc,ETH Zentrum,electronic,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+6,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+6,ETH Zurich,BSc,ETH Zentrum,metal,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+6,ETH Zurich,BSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+6,ETH Zurich,BSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+6,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,noa,No answer,NA
+6,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,noa,No answer,NA
+6,ETH Zurich,BSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+7,ETH Zurich,PhD,ETH Hönggerberg,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+7,ETH Zurich,PhD,ETH Hönggerberg,organic,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+7,ETH Zurich,PhD,ETH Hönggerberg,pet,cb,I know where a bin is located nearby.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,plastics,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,paper,cb,I know where a bin is located nearby.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,alu_cans,cb,I know where a bin is located nearby.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,glass,cb,I know where a bin is located nearby.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,batteries,cb,I know where a bin is located nearby.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,electronic,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,storage_media,cb,I know where a bin is located nearby.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,metal,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,wood,cb,I know where a bin is located nearby.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,liquids,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+7,ETH Zurich,PhD,ETH Hönggerberg,cartridges,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+7,ETH Zurich,PhD,ETH Hönggerberg,coffee_capsules,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+7,ETH Zurich,PhD,ETH Hönggerberg,textiles,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+8,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+8,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+8,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+8,ETH Zurich,MSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+8,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,glass,ebw,I know it exists but I am not sure where.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,batteries,ebw,I know it exists but I am not sure where.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,electronic,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,metal,ebw,I know it exists but I am not sure where.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,wood,ebw,I know it exists but I am not sure where.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+8,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+8,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+9,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+9,ETH Zurich,MSc,ETH Zentrum,organic,nu,I do not know any and I would not use it.,sb,Within the same building,1
+9,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+9,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+9,ETH Zurich,MSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+9,ETH Zurich,MSc,ETH Zentrum,alu_cans,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+9,ETH Zurich,MSc,ETH Zentrum,glass,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+9,ETH Zurich,MSc,ETH Zentrum,batteries,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+9,ETH Zurich,MSc,ETH Zentrum,electronic,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+9,ETH Zurich,MSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+9,ETH Zurich,MSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+9,ETH Zurich,MSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+9,ETH Zurich,MSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+9,ETH Zurich,MSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+9,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+9,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+10,ETH Zurich,PhD,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+10,ETH Zurich,PhD,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,pet,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,glass,cb,I know where a bin is located nearby.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,batteries,cb,I know where a bin is located nearby.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,electronic,cb,I know where a bin is located nearby.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,storage_media,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,metal,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,wood,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,liquids,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+10,ETH Zurich,PhD,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+11,ETH Zurich,MSc,ETH Zentrum,residual,noa,No answer,NA,NA,NA
+11,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+11,ETH Zurich,MSc,ETH Zentrum,pet,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+11,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+11,ETH Zurich,MSc,ETH Zentrum,paper,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+11,ETH Zurich,MSc,ETH Zentrum,alu_cans,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+11,ETH Zurich,MSc,ETH Zentrum,glass,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+11,ETH Zurich,MSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+11,ETH Zurich,MSc,ETH Zentrum,electronic,nu,I do not know any and I would not use it.,nb,The building next door,2
+11,ETH Zurich,MSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+11,ETH Zurich,MSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+11,ETH Zurich,MSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,nb,The building next door,2
+11,ETH Zurich,MSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,noa,No answer,NA
+11,ETH Zurich,MSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,noa,No answer,NA
+11,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,noa,No answer,NA
+11,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+12,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+12,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+12,ETH Zurich,BSc,ETH Zentrum,pet,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+12,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+12,ETH Zurich,BSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+12,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+12,ETH Zurich,BSc,ETH Zentrum,glass,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+12,ETH Zurich,BSc,ETH Zentrum,batteries,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+12,ETH Zurich,BSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+12,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+12,ETH Zurich,BSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+12,ETH Zurich,BSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+12,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+12,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+12,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+12,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+13,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+13,ETH Zurich,MSc,ETH Zentrum,organic,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+13,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+13,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+13,ETH Zurich,MSc,ETH Zentrum,paper,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+13,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,nb,The building next door,2
+13,ETH Zurich,MSc,ETH Zentrum,glass,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+13,ETH Zurich,MSc,ETH Zentrum,batteries,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+13,ETH Zurich,MSc,ETH Zentrum,electronic,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+13,ETH Zurich,MSc,ETH Zentrum,storage_media,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+13,ETH Zurich,MSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+13,ETH Zurich,MSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+13,ETH Zurich,MSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+13,ETH Zurich,MSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+13,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+13,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+14,University of Zurich,MSc,Other,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+14,University of Zurich,MSc,Other,organic,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+14,University of Zurich,MSc,Other,pet,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+14,University of Zurich,MSc,Other,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+14,University of Zurich,MSc,Other,paper,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+14,University of Zurich,MSc,Other,alu_cans,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+14,University of Zurich,MSc,Other,glass,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+14,University of Zurich,MSc,Other,batteries,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+14,University of Zurich,MSc,Other,electronic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+14,University of Zurich,MSc,Other,storage_media,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+14,University of Zurich,MSc,Other,metal,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+14,University of Zurich,MSc,Other,wood,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+14,University of Zurich,MSc,Other,liquids,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+14,University of Zurich,MSc,Other,cartridges,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+14,University of Zurich,MSc,Other,coffee_capsules,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+14,University of Zurich,MSc,Other,textiles,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+15,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+15,ETH Zurich,MSc,ETH Zentrum,organic,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+15,ETH Zurich,MSc,ETH Zentrum,pet,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+15,ETH Zurich,MSc,ETH Zentrum,plastics,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+15,ETH Zurich,MSc,ETH Zentrum,paper,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+15,ETH Zurich,MSc,ETH Zentrum,alu_cans,ebw,I know it exists but I am not sure where.,nb,The building next door,2
+15,ETH Zurich,MSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+15,ETH Zurich,MSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+15,ETH Zurich,MSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+15,ETH Zurich,MSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+15,ETH Zurich,MSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+15,ETH Zurich,MSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+15,ETH Zurich,MSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+15,ETH Zurich,MSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+15,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+15,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+16,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+16,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+16,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+16,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+16,ETH Zurich,BSc,ETH Zentrum,paper,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+16,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+16,ETH Zurich,BSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+16,ETH Zurich,BSc,ETH Zentrum,batteries,cb,I know where a bin is located nearby.,sb,Within the same building,1
+16,ETH Zurich,BSc,ETH Zentrum,electronic,ebw,I know it exists but I am not sure where.,oc,"Off campus (e.g., to municipal collections)",5
+16,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+16,ETH Zurich,BSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+16,ETH Zurich,BSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+16,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+16,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+16,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+16,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+17,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+17,ETH Zurich,MSc,ETH Zentrum,organic,nu,I do not know any and I would not use it.,sb,Within the same building,1
+17,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+17,ETH Zurich,MSc,ETH Zentrum,plastics,nu,I do not know any and I would not use it.,sb,Within the same building,1
+17,ETH Zurich,MSc,ETH Zentrum,paper,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+17,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+17,ETH Zurich,MSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+17,ETH Zurich,MSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+17,ETH Zurich,MSc,ETH Zentrum,electronic,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+17,ETH Zurich,MSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+17,ETH Zurich,MSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+17,ETH Zurich,MSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+17,ETH Zurich,MSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+17,ETH Zurich,MSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+17,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+17,ETH Zurich,MSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+18,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+18,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,paper,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,glass,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,electronic,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+18,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+19,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+19,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+19,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+19,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+19,ETH Zurich,BSc,ETH Zentrum,paper,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+19,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+19,ETH Zurich,BSc,ETH Zentrum,glass,ebw,I know it exists but I am not sure where.,nb,The building next door,2
+19,ETH Zurich,BSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+19,ETH Zurich,BSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+19,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+19,ETH Zurich,BSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+19,ETH Zurich,BSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+19,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+19,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+19,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+19,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+20,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+20,ETH Zurich,BSc,ETH Zentrum,organic,nu,I do not know any and I would not use it.,sb,Within the same building,1
+20,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,nb,The building next door,2
+20,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+20,ETH Zurich,BSc,ETH Zentrum,paper,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+20,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+20,ETH Zurich,BSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+20,ETH Zurich,BSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+20,ETH Zurich,BSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+20,ETH Zurich,BSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+20,ETH Zurich,BSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+20,ETH Zurich,BSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+20,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+20,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+20,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+20,ETH Zurich,BSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+21,ETH Zurich,BSc,Other,residual,ebw,I know it exists but I am not sure where.,NA,NA,NA
+21,ETH Zurich,BSc,Other,organic,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+21,ETH Zurich,BSc,Other,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+21,ETH Zurich,BSc,Other,plastics,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+21,ETH Zurich,BSc,Other,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+21,ETH Zurich,BSc,Other,alu_cans,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+21,ETH Zurich,BSc,Other,glass,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+21,ETH Zurich,BSc,Other,batteries,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+21,ETH Zurich,BSc,Other,electronic,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+21,ETH Zurich,BSc,Other,storage_media,nu,I do not know any and I would not use it.,noa,No answer,NA
+21,ETH Zurich,BSc,Other,metal,nu,I do not know any and I would not use it.,noa,No answer,NA
+21,ETH Zurich,BSc,Other,wood,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+21,ETH Zurich,BSc,Other,liquids,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+21,ETH Zurich,BSc,Other,cartridges,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+21,ETH Zurich,BSc,Other,coffee_capsules,ebw,I know it exists but I am not sure where.,noa,No answer,NA
+21,ETH Zurich,BSc,Other,textiles,cb,I know where a bin is located nearby.,noa,No answer,NA
+22,Other,MSc,Other,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+22,Other,MSc,Other,organic,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+22,Other,MSc,Other,pet,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+22,Other,MSc,Other,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+22,Other,MSc,Other,paper,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+22,Other,MSc,Other,alu_cans,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+22,Other,MSc,Other,glass,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+22,Other,MSc,Other,batteries,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+22,Other,MSc,Other,electronic,nu,I do not know any and I would not use it.,noa,No answer,NA
+22,Other,MSc,Other,storage_media,nu,I do not know any and I would not use it.,noa,No answer,NA
+22,Other,MSc,Other,metal,nu,I do not know any and I would not use it.,noa,No answer,NA
+22,Other,MSc,Other,wood,nu,I do not know any and I would not use it.,noa,No answer,NA
+22,Other,MSc,Other,liquids,nu,I do not know any and I would not use it.,noa,No answer,NA
+22,Other,MSc,Other,cartridges,nu,I do not know any and I would not use it.,noa,No answer,NA
+22,Other,MSc,Other,coffee_capsules,nu,I do not know any and I would not use it.,noa,No answer,NA
+22,Other,MSc,Other,textiles,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+23,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+23,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+23,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,nb,The building next door,2
+23,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+23,ETH Zurich,MSc,ETH Zentrum,paper,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+23,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,nb,The building next door,2
+23,ETH Zurich,MSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+23,ETH Zurich,MSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+23,ETH Zurich,MSc,ETH Zentrum,electronic,ebw,I know it exists but I am not sure where.,oc,"Off campus (e.g., to municipal collections)",5
+23,ETH Zurich,MSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,noa,No answer,NA
+23,ETH Zurich,MSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+23,ETH Zurich,MSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,sb,Within the same building,1
+23,ETH Zurich,MSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,nb,The building next door,2
+23,ETH Zurich,MSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,sb,Within the same building,1
+23,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,sb,Within the same building,1
+23,ETH Zurich,MSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+24,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,paper,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,glass,cb,I know where a bin is located nearby.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,wood,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,sb,Within the same building,1
+24,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,sb,Within the same building,1
+25,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+25,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+25,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+25,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+25,ETH Zurich,BSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+25,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+25,ETH Zurich,BSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+25,ETH Zurich,BSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+25,ETH Zurich,BSc,ETH Zentrum,electronic,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+25,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+25,ETH Zurich,BSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+25,ETH Zurich,BSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+25,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+25,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+25,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+25,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+26,University of Zurich,BSc,UZH Zentrum,residual,ebw,I know it exists but I am not sure where.,NA,NA,NA
+26,University of Zurich,BSc,UZH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+26,University of Zurich,BSc,UZH Zentrum,pet,ebw,I know it exists but I am not sure where.,nb,The building next door,2
+26,University of Zurich,BSc,UZH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+26,University of Zurich,BSc,UZH Zentrum,paper,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+26,University of Zurich,BSc,UZH Zentrum,alu_cans,ebw,I know it exists but I am not sure where.,nb,The building next door,2
+26,University of Zurich,BSc,UZH Zentrum,glass,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+26,University of Zurich,BSc,UZH Zentrum,batteries,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+26,University of Zurich,BSc,UZH Zentrum,electronic,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+26,University of Zurich,BSc,UZH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+26,University of Zurich,BSc,UZH Zentrum,metal,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+26,University of Zurich,BSc,UZH Zentrum,wood,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+26,University of Zurich,BSc,UZH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+26,University of Zurich,BSc,UZH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+26,University of Zurich,BSc,UZH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+26,University of Zurich,BSc,UZH Zentrum,textiles,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+27,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+27,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+27,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+27,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,paper,ebw,I know it exists but I am not sure where.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,oc,"Off campus (e.g., to municipal collections)",5
+27,ETH Zurich,BSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+27,ETH Zurich,BSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+27,ETH Zurich,BSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+28,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+28,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+28,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,nb,The building next door,2
+28,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+28,ETH Zurich,BSc,ETH Zentrum,paper,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+28,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,nb,The building next door,2
+28,ETH Zurich,BSc,ETH Zentrum,glass,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+28,ETH Zurich,BSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+28,ETH Zurich,BSc,ETH Zentrum,electronic,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+28,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+28,ETH Zurich,BSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+28,ETH Zurich,BSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+28,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+28,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+28,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+28,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+29,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+29,ETH Zurich,BSc,ETH Zentrum,organic,nu,I do not know any and I would not use it.,sb,Within the same building,1
+29,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+29,ETH Zurich,BSc,ETH Zentrum,plastics,nu,I do not know any and I would not use it.,sb,Within the same building,1
+29,ETH Zurich,BSc,ETH Zentrum,paper,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+29,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+29,ETH Zurich,BSc,ETH Zentrum,glass,nu,I do not know any and I would not use it.,nb,The building next door,2
+29,ETH Zurich,BSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,nb,The building next door,2
+29,ETH Zurich,BSc,ETH Zentrum,electronic,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+29,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+29,ETH Zurich,BSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+29,ETH Zurich,BSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+29,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+29,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+29,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+29,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+30,Prefer not to say,BSc,Other,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+30,Prefer not to say,BSc,Other,organic,nu,I do not know any and I would not use it.,sb,Within the same building,1
+30,Prefer not to say,BSc,Other,pet,cb,I know where a bin is located nearby.,nb,The building next door,2
+30,Prefer not to say,BSc,Other,plastics,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+30,Prefer not to say,BSc,Other,paper,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+30,Prefer not to say,BSc,Other,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+30,Prefer not to say,BSc,Other,glass,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+30,Prefer not to say,BSc,Other,batteries,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+30,Prefer not to say,BSc,Other,electronic,ebw,I know it exists but I am not sure where.,cr,In the room I am currently in,0
+30,Prefer not to say,BSc,Other,storage_media,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+30,Prefer not to say,BSc,Other,metal,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+30,Prefer not to say,BSc,Other,wood,ebw,I know it exists but I am not sure where.,cr,In the room I am currently in,0
+30,Prefer not to say,BSc,Other,liquids,noa,No answer,noa,No answer,NA
+30,Prefer not to say,BSc,Other,cartridges,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+30,Prefer not to say,BSc,Other,coffee_capsules,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+30,Prefer not to say,BSc,Other,textiles,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+31,ETH Zurich,BSc,ETH Zentrum,residual,noa,No answer,NA,NA,NA
+31,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+31,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,nb,The building next door,2
+31,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+31,ETH Zurich,BSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+31,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,nb,The building next door,2
+31,ETH Zurich,BSc,ETH Zentrum,glass,ebw,I know it exists but I am not sure where.,nb,The building next door,2
+31,ETH Zurich,BSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,nb,The building next door,2
+31,ETH Zurich,BSc,ETH Zentrum,electronic,nu,I do not know any and I would not use it.,nb,The building next door,2
+31,ETH Zurich,BSc,ETH Zentrum,storage_media,noa,No answer,nb,The building next door,2
+31,ETH Zurich,BSc,ETH Zentrum,metal,noa,No answer,nb,The building next door,2
+31,ETH Zurich,BSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+31,ETH Zurich,BSc,ETH Zentrum,liquids,noa,No answer,sb,Within the same building,1
+31,ETH Zurich,BSc,ETH Zentrum,cartridges,noa,No answer,sb,Within the same building,1
+31,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+31,ETH Zurich,BSc,ETH Zentrum,textiles,cb,I know where a bin is located nearby.,nb,The building next door,2
+32,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+32,ETH Zurich,MSc,ETH Zentrum,organic,ebw,I know it exists but I am not sure where.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+32,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+32,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+32,ETH Zurich,MSc,ETH Zentrum,glass,cb,I know where a bin is located nearby.,nb,The building next door,2
+32,ETH Zurich,MSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+32,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+33,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+33,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+33,ETH Zurich,BSc,ETH Zentrum,pet,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+33,ETH Zurich,BSc,ETH Zentrum,plastics,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+33,ETH Zurich,BSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+33,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+33,ETH Zurich,BSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+33,ETH Zurich,BSc,ETH Zentrum,batteries,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+33,ETH Zurich,BSc,ETH Zentrum,electronic,ebw,I know it exists but I am not sure where.,oc,"Off campus (e.g., to municipal collections)",5
+33,ETH Zurich,BSc,ETH Zentrum,storage_media,noa,No answer,nb,The building next door,2
+33,ETH Zurich,BSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+33,ETH Zurich,BSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+33,ETH Zurich,BSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+33,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+33,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,nb,The building next door,2
+33,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+34,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+34,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+34,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+34,ETH Zurich,BSc,ETH Zentrum,plastics,nu,I do not know any and I would not use it.,sb,Within the same building,1
+34,ETH Zurich,BSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+34,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+34,ETH Zurich,BSc,ETH Zentrum,glass,cb,I know where a bin is located nearby.,sb,Within the same building,1
+34,ETH Zurich,BSc,ETH Zentrum,batteries,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+34,ETH Zurich,BSc,ETH Zentrum,electronic,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+34,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+34,ETH Zurich,BSc,ETH Zentrum,metal,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+34,ETH Zurich,BSc,ETH Zentrum,wood,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+34,ETH Zurich,BSc,ETH Zentrum,liquids,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+34,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+34,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+34,ETH Zurich,BSc,ETH Zentrum,textiles,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+35,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+35,ETH Zurich,BSc,ETH Zentrum,organic,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+35,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+35,ETH Zurich,BSc,ETH Zentrum,plastics,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+35,ETH Zurich,BSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+35,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,nb,The building next door,2
+35,ETH Zurich,BSc,ETH Zentrum,glass,cb,I know where a bin is located nearby.,nb,The building next door,2
+35,ETH Zurich,BSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+35,ETH Zurich,BSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+35,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,nb,The building next door,2
+35,ETH Zurich,BSc,ETH Zentrum,metal,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+35,ETH Zurich,BSc,ETH Zentrum,wood,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+35,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+35,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+35,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+35,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+36,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+36,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+36,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+36,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+36,ETH Zurich,MSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+36,ETH Zurich,MSc,ETH Zentrum,alu_cans,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+36,ETH Zurich,MSc,ETH Zentrum,glass,cb,I know where a bin is located nearby.,nb,The building next door,2
+36,ETH Zurich,MSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+36,ETH Zurich,MSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+36,ETH Zurich,MSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+36,ETH Zurich,MSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+36,ETH Zurich,MSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+36,ETH Zurich,MSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+36,ETH Zurich,MSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+36,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+36,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+37,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+37,ETH Zurich,BSc,ETH Zentrum,organic,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+37,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+37,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+37,ETH Zurich,BSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+37,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+37,ETH Zurich,BSc,ETH Zentrum,glass,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+37,ETH Zurich,BSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+37,ETH Zurich,BSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+37,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,noa,No answer,NA
+37,ETH Zurich,BSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+37,ETH Zurich,BSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+37,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,noa,No answer,NA
+37,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,noa,No answer,NA
+37,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,noa,No answer,NA
+37,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,noa,No answer,NA
+38,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+38,ETH Zurich,MSc,ETH Zentrum,organic,cb,I know where a bin is located nearby.,sb,Within the same building,1
+38,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+38,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+38,ETH Zurich,MSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+38,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+38,ETH Zurich,MSc,ETH Zentrum,glass,cb,I know where a bin is located nearby.,nb,The building next door,2
+38,ETH Zurich,MSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+38,ETH Zurich,MSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+38,ETH Zurich,MSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,noa,No answer,NA
+38,ETH Zurich,MSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,noa,No answer,NA
+38,ETH Zurich,MSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,noa,No answer,NA
+38,ETH Zurich,MSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,noa,No answer,NA
+38,ETH Zurich,MSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,noa,No answer,NA
+38,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,noa,No answer,NA
+38,ETH Zurich,MSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+39,ETH Zurich,BSc,ETH Zentrum,organic,nu,I do not know any and I would not use it.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+39,ETH Zurich,BSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,oc,"Off campus (e.g., to municipal collections)",5
+39,ETH Zurich,BSc,ETH Zentrum,paper,nu,I do not know any and I would not use it.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+39,ETH Zurich,BSc,ETH Zentrum,glass,nu,I do not know any and I would not use it.,oc,"Off campus (e.g., to municipal collections)",5
+39,ETH Zurich,BSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,electronic,cb,I know where a bin is located nearby.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,storage_media,cb,I know where a bin is located nearby.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,noa,No answer,NA
+39,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,noa,No answer,NA
+40,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+40,ETH Zurich,MSc,ETH Zentrum,organic,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+40,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+40,ETH Zurich,MSc,ETH Zentrum,plastics,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+40,ETH Zurich,MSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+40,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+40,ETH Zurich,MSc,ETH Zentrum,glass,ebw,I know it exists but I am not sure where.,nb,The building next door,2
+40,ETH Zurich,MSc,ETH Zentrum,batteries,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+40,ETH Zurich,MSc,ETH Zentrum,electronic,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+40,ETH Zurich,MSc,ETH Zentrum,storage_media,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+40,ETH Zurich,MSc,ETH Zentrum,metal,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+40,ETH Zurich,MSc,ETH Zentrum,wood,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+40,ETH Zurich,MSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+40,ETH Zurich,MSc,ETH Zentrum,cartridges,ebw,I know it exists but I am not sure where.,ac,Anywhere on the campus,4
+40,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+40,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+41,ETH Zurich,BSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+41,ETH Zurich,BSc,ETH Zentrum,organic,ebw,I know it exists but I am not sure where.,cr,In the room I am currently in,0
+41,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+41,ETH Zurich,BSc,ETH Zentrum,plastics,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+41,ETH Zurich,BSc,ETH Zentrum,paper,nu,I do not know any and I would not use it.,cr,In the room I am currently in,0
+41,ETH Zurich,BSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+41,ETH Zurich,BSc,ETH Zentrum,glass,nu,I do not know any and I would not use it.,sb,Within the same building,1
+41,ETH Zurich,BSc,ETH Zentrum,batteries,noa,No answer,oc,"Off campus (e.g., to municipal collections)",5
+41,ETH Zurich,BSc,ETH Zentrum,electronic,noa,No answer,oc,"Off campus (e.g., to municipal collections)",5
+41,ETH Zurich,BSc,ETH Zentrum,storage_media,noa,No answer,oc,"Off campus (e.g., to municipal collections)",5
+41,ETH Zurich,BSc,ETH Zentrum,metal,noa,No answer,oc,"Off campus (e.g., to municipal collections)",5
+41,ETH Zurich,BSc,ETH Zentrum,wood,noa,No answer,oc,"Off campus (e.g., to municipal collections)",5
+41,ETH Zurich,BSc,ETH Zentrum,liquids,noa,No answer,oc,"Off campus (e.g., to municipal collections)",5
+41,ETH Zurich,BSc,ETH Zentrum,cartridges,noa,No answer,noa,No answer,NA
+41,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,noa,No answer,noa,No answer,NA
+41,ETH Zurich,BSc,ETH Zentrum,textiles,noa,No answer,noa,No answer,NA
+42,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+42,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+42,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+42,ETH Zurich,MSc,ETH Zentrum,plastics,nu,I do not know any and I would not use it.,sb,Within the same building,1
+42,ETH Zurich,MSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,sb,Within the same building,1
+42,ETH Zurich,MSc,ETH Zentrum,alu_cans,cb,I know where a bin is located nearby.,sb,Within the same building,1
+42,ETH Zurich,MSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+42,ETH Zurich,MSc,ETH Zentrum,batteries,cb,I know where a bin is located nearby.,nb,The building next door,2
+42,ETH Zurich,MSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,ac,Anywhere on the campus,4
+42,ETH Zurich,MSc,ETH Zentrum,storage_media,cb,I know where a bin is located nearby.,ac,Anywhere on the campus,4
+42,ETH Zurich,MSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+42,ETH Zurich,MSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+42,ETH Zurich,MSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+42,ETH Zurich,MSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+42,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,cb,I know where a bin is located nearby.,nb,The building next door,2
+42,ETH Zurich,MSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+43,ETH Zurich,BSc,ETH Zentrum,residual,noa,No answer,NA,NA,NA
+43,ETH Zurich,BSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,cr,In the room I am currently in,0
+43,ETH Zurich,BSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+43,ETH Zurich,BSc,ETH Zentrum,plastics,cb,I know where a bin is located nearby.,sb,Within the same building,1
+43,ETH Zurich,BSc,ETH Zentrum,paper,cb,I know where a bin is located nearby.,cr,In the room I am currently in,0
+43,ETH Zurich,BSc,ETH Zentrum,alu_cans,nu,I do not know any and I would not use it.,nb,The building next door,2
+43,ETH Zurich,BSc,ETH Zentrum,glass,cb,I know where a bin is located nearby.,nb,The building next door,2
+43,ETH Zurich,BSc,ETH Zentrum,batteries,nu,I do not know any and I would not use it.,ac,Anywhere on the campus,4
+43,ETH Zurich,BSc,ETH Zentrum,electronic,nu,I do not know any and I would not use it.,noa,No answer,NA
+43,ETH Zurich,BSc,ETH Zentrum,storage_media,nu,I do not know any and I would not use it.,noa,No answer,NA
+43,ETH Zurich,BSc,ETH Zentrum,metal,nu,I do not know any and I would not use it.,noa,No answer,NA
+43,ETH Zurich,BSc,ETH Zentrum,wood,nu,I do not know any and I would not use it.,noa,No answer,NA
+43,ETH Zurich,BSc,ETH Zentrum,liquids,nu,I do not know any and I would not use it.,noa,No answer,NA
+43,ETH Zurich,BSc,ETH Zentrum,cartridges,nu,I do not know any and I would not use it.,noa,No answer,NA
+43,ETH Zurich,BSc,ETH Zentrum,coffee_capsules,nu,I do not know any and I would not use it.,noa,No answer,NA
+43,ETH Zurich,BSc,ETH Zentrum,textiles,nu,I do not know any and I would not use it.,noa,No answer,NA
+44,ETH Zurich,MSc,ETH Zentrum,residual,cb,I know where a bin is located nearby.,NA,NA,NA
+44,ETH Zurich,MSc,ETH Zentrum,organic,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+44,ETH Zurich,MSc,ETH Zentrum,pet,cb,I know where a bin is located nearby.,sb,Within the same building,1
+44,ETH Zurich,MSc,ETH Zentrum,plastics,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+44,ETH Zurich,MSc,ETH Zentrum,paper,ebw,I know it exists but I am not sure where.,sb,Within the same building,1
+44,ETH Zurich,MSc,ETH Zentrum,alu_cans,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+44,ETH Zurich,MSc,ETH Zentrum,glass,wl,I do not know of any but I would like for it to be available.,sb,Within the same building,1
+44,ETH Zurich,MSc,ETH Zentrum,batteries,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+44,ETH Zurich,MSc,ETH Zentrum,electronic,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+44,ETH Zurich,MSc,ETH Zentrum,storage_media,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+44,ETH Zurich,MSc,ETH Zentrum,metal,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+44,ETH Zurich,MSc,ETH Zentrum,wood,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+44,ETH Zurich,MSc,ETH Zentrum,liquids,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+44,ETH Zurich,MSc,ETH Zentrum,cartridges,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+44,ETH Zurich,MSc,ETH Zentrum,coffee_capsules,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2
+44,ETH Zurich,MSc,ETH Zentrum,textiles,wl,I do not know of any but I would like for it to be available.,nb,The building next door,2

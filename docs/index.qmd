@@ -1,5 +1,5 @@
 ---
-title: "The willingness to walk to separate waste among Zurich's students"
+title: "Investigation of the waste separation knowledge and behavior among Zurich's students"
 subtitle: "Capstone Project for the lecture 'Research Beyond the Lab' FS24"
 date: today
 author:
@@ -10,11 +10,11 @@ author:
       - name: ETH Zurich
         url: https://ethz.ch/de.html
 abstract: 
-  PUT ABSTRACT HERE
+  "This study identifies students' knowledge and availability of waste separation options on their campus as well as their willingness to walk for appropriate separation. Consequentially, possible measures are proposed to improve the waste separation at Zurich's universities."
 license: "CC BY"
-#citation: 
-#  container-title: My Blog
-#  url: https://www.example.com
+citation: 
+  container-title: Research Beyond the Lab
+  url: https://rbtl-fs24.github.io/project-sprinz11/
 bibliography: references.bib
 csl: apa.csl  # other csls https://github.com/citation-style-language/styles
 format:
@@ -29,8 +29,8 @@ format:
 #    out-width: "70%"
 execute:
   cache: false   # regularily clear out by knitr::clean_cache()
-# global chunk code options:
-#  warning: false
+  warning: false
+#  echo: false
 editor: visual
 editor_options: 
   chunk_output_type: console
@@ -55,82 +55,36 @@ library(DT)
 
 data_avail_wtw <- read_rds(here::here("data/processed/01-data_avail_wtw.rds"))
 open_answers <- read_rds(here::here("data/processed/02-open_answers.rds"))
-
-# data_dictionary <- read_csv(here::here("data/processed/00-data_dictionary.csv"))
 ```
-
-## Task description
-
-You will use the `index.qmd` file to write your final report. This will be a Quarto document that will contain your analysis and visualizations. You will need to access the processed data from the `data/processed` folder using the `read_csv()` function.
-
-You will save the data underlying each displayed summary table and visualization in the `data/final` folder. This requires that each visualization and table is generated from an object that is not further transformed before the code for the visualization or table is written. Use the `write_csv()` function to save the data underlying each visualization and table in the `data/final` folder. Give the files the name of the label you have chosen inside the code-chunk. See example below.
-
-```{r}
-#| eval: false
-#| echo: false
-#| label: tbl-gapminder-mean
-#| tbl-cap: "Mean values of life expectancy, GDP per capita, and population by continent"
-
-# load libraries -------------------------------------
-
-library(gapminder)
-library(tidyverse)
-
-# data analysis --------------------------------------
-
-gapminder_mean <- gapminder |> 
-  pivot_longer(cols = c(lifeExp, gdpPercap, pop), 
-               names_to = "variable",
-               values_to = "value") |> 
-  group_by(continent, variable) |> 
-  summarise(mean = mean(value),
-            n = n()) |> 
-  pivot_wider(names_from = variable, 
-              values_from = mean) 
-
-# results display as table ---------------------------
-  
-gapminder_mean |> 
-  knitr::kable(digits = 0)
-
-# save data underlying the table ----------------------
-
-# write_csv(gapminder_mean, here::here("data/final/tbl-gapminder-mean.csv"))
-```
-
-# 
 
 # Introduction
 
-Introduction section with 3 to 5 sentences introduces the context within which the data was created.
+According to the SDG Report 2023 @sachs2023implementinga, more than 80% of the OECD countries have major challenges remaining in the sector of SDG 12 - Responsible consumption and production. Among them is Switzerland, despite being ranked number 15 out of 166 countries in the overall country ranking, with SDG 12 among its worst categories. Furthermore, the municipal solid waste production is estimated to increase in future years without taking urgent measures, and must be balanced out by an improved recycling in Switzerland and the world. [@programme2024globala]. This is a matter in which different players have an important role: governments, producers, the waste management sector, and the consumers. [@programme2024globala]
 
-According to the SDG Report 2023 ***(source SDG2023***), more than 80% of the OECD countries have major challenges remaining in the sector of SDG 12 - Responsible consumption and production. Among them is Switzerland, despite being ranked number 15 out of 166 countries in the overall country ranking, with SDG 12 among its worst categories.
-
-This indicates clearly that major efforts in the reduction of s
-
-Non-recycled municipal solid waste still poses significant challenges
-
-Test @kassim2012importancea ... ; @sustainable ; [@sustainable] ...
+The goal of this research is to not only look at the players separately, but to affect the cooperation between the government (here, the universities of Zurich) and the consumers (the students).
 
 # Methods
 
-Methods section describes in 3 to 5 sentences how the data was obtained.
+To investigate the status and possible areas of improvement, the behavior and knowledge of Zurich's students regarding waste separation was examined by the utilization of a survey.[^1]
 
-Survey distributed among group chats, friends, and random people on the campus.
+[^1]: The survey can be found here: <https://forms.gle/P4ncgdWujPUFnryU9>
 
-All mentioned waste types can be separated on campus (already available)
+This survey was then distributed in Whatsapp group chats, among friends, as well as random students on the campus. It contained demographic data, like the respondent's main institution, their main campus, and level of studies. Furthermore, for many different waste types, multiple choice questions determined the student's knowledge about their location and their need for such, as well as how far they would be willing to walk to dispose their waste in the designated bin for separation (produced during the time on campus) from the location it is produced before disposing it in the residual waste instead.
+
+All mentioned waste types are already available on campus for separation.
 
 # Results
 
-Figures and tables in Results section are interpreted with 2 to 3 sentences each.
+In the sections below, the findings regarding student's knowledge about separation availability, their waste separation behavior, and suggestions for improvement are portrayed.
 
-Blabla
+## Availability of separation options
 
-As seen in @fig-avail-response , the students ...
+As seen in @fig-avail-response , the students' awareness regarding the placement of separation options drastically differs between waste types. As expected, often used/produced waste types, like residual waste, pet, paper, and aluminum cans enjoy a larger awareness. Outliers for this trend are organic waste and other plastics which seem to have a large, unmet demand.\
+To improve readability, the students' responses are abbreviated by acronyms (see @tbl-acro-meaning for their meaning). Students who selected "No answer" are excluded in this section.
 
 ```{r}
 #| label: fig-avail-response
-#| fig-cap: "Results of survey, student's answers to waste separation availability."
+#| fig-cap: "Results of survey, student's answers to waste separation availability. (The meaning of the acronyms for the availability are explained in @tbl-acro-meaning.)"
 
 fig_avail_response <- data_avail_wtw |> 
   filter(avail_resp_short != "noa") |> 
@@ -143,10 +97,30 @@ fig_avail_response |>
        y = "Waste type",
        fill = "# students")
 
-# write_csv(fig_avail_response, here::here("data/final/fig-avail-response.csv"))
+write_csv(fig_avail_response, here::here("data/final/fig-avail-response.csv"))
 ```
 
-The necessity to improve information about the separation options can be seen more clearly, when combining the students that know of the existence but are not sure where with the students that do not know the option exists but would like to have it (@tbl-avail-response)
+```{r}
+#| label: tbl-acro-meaning
+#| tbl-cap: "Description of the acronyms for availability."
+
+unique_acronyms <- tibble(
+  acronym = c("cb", "ebw", "wl", "nu"),
+  meaning = c("I know where a bin is located nearby.",
+              "I know it exists but I am not sure where.",
+              "I do not know of any but I would like for it to be available.",
+              "I do not know any and I would not use it.")
+  )
+
+unique_acronyms |> 
+  gt() |> 
+  cols_label(acronym = "Acronym", meaning = "Meaning") |> 
+  opt_stylize(style = 1)
+
+write_csv(unique_acronyms, here::here("data/final/tbl-acro-meaning.csv"))
+```
+
+The necessity to improve information about the separation options can be seen more clearly, when combining the students that know of the existence but are not sure where, with the students that do not know the option exists but would like to have it (see @tbl-avail-response). The finding suggests that many waste types, especially plastics and organic waste, lack knowledge of their locations.
 
 ```{r}
 #| label: tbl-avail-response
@@ -155,31 +129,44 @@ The necessity to improve information about the separation options can be seen mo
 tbl_avail_response <- data_avail_wtw |> 
   group_by(waste_type) |> 
   count(waste_type, avail_resp_short) |> 
+  ungroup() |> 
   pivot_wider(names_from = avail_resp_short,
-              values_from = n) |> 
+              values_from = n,
+              values_fill = 0) |> 
   select(-noa) |> 
-  mutate(total_answers = cb + ebw + wl + nu) |>  # include "No answer"s?
-  mutate(no_info = ebw + wl) |> 
-  mutate(no_info_percent = no_info / total_answers *100) |> 
-  select(no_info, total_answers, no_info_percent)
+  mutate(total_answers = cb + ebw + wl + nu) |> 
+  mutate(known_percent = cb / total_answers*100) |> 
+  mutate(unknown_percent = (ebw + wl) / total_answers *100) |> 
+  mutate(unused_percent = nu / total_answers *100) |> 
+  select(waste_type, total_answers, known_percent, unknown_percent, unused_percent)
 
 tbl_avail_response |> 
   gt() |> 
-  tab_header(title = "A title.")
+  tab_header(title = "Percentages of replies for (summed up) categories.") |> 
+  cols_label(waste_type = "Waste type",
+             total_answers = "Tot # of replies",
+             known_percent = "Percentage of replies stating cb [%]",
+             unknown_percent = "Percentage of replies stating ebw or wl [%]",
+             unused_percent = "Percentage of replies stating nu [%]") |> 
+  fmt_number(columns = c(total_answers, known_percent,
+                         unknown_percent, unused_percent ),
+             decimals = 1) |> 
+  fmt_number(columns = total_answers, decimals = 0) |> 
+  opt_stylize(style = 1)
+  
 
-
-#  gt() |> 
-#  tab_header(title = "A title.") |>
-#  cols_label(improvements = "Proposed improvements")
-
-# write_csv(tbl_avail_response, here::here("data/final/tbl-avail-response.csv"))
+  write_csv(tbl_avail_response, here::here("data/final/tbl-avail-response.csv"))
 ```
 
-When looking at the willingness to walk, @fig-wtw-response shows ...
+## Willingness to walk
+
+Regarding how far students would be willing to walk to dispose their waste in the designated bin for separation (produced during the time on campus) from the location it is produced before disposing it in the residual waste instead, coincides well the the expectation prior to the conducted survey. @fig-wtw-response shows that students' williingness to cover a distance for disposal correlates with the frequency of production. The most common waste types organic, pet, other plastics, paper, and aluminum cans show a median much closer to their site of production than less common waste types.[^2]
+
+[^2]: Replies stating "No answer" has been excluded from the displayed data again.
 
 ```{r}
 #| label: fig-wtw-response
-#| fig-cap: "Boxplot of the willingness to walk for appropriate separation on campus"
+#| fig-cap: "Boxplot of the willingness to walk for appropriate separation on campus."
 
 fig_wtw_response <- data_avail_wtw |> 
   filter(!is.na(wtw_resp_nr)) #remove residual waste and "No answer" responses
@@ -190,8 +177,10 @@ fig_wtw_response |>
   labs(x = "Linearized distance to walk for respective waste type separation",
        y = "Waste type")
 
-# write_csv(fig_wtw_response, here::here("data/final/fig-wtw-response.csv"))
+write_csv(fig_wtw_response, here::here("data/final/fig-wtw-response.csv"))
 ```
+
+## Improvement suggestions
 
 Lastly, the questioned individuals had the option to finish the survey with possible improvements. These proposals are listed in @tbl-improvements .
 
@@ -206,21 +195,26 @@ tbl_improvements <- open_answers |>
 tbl_improvements |> 
   gt() |> 
   tab_header(title = "Improvements proposed by students.") |>
-  cols_label(improvements = "Proposed improvements")
+  cols_label(improvements = " ") |> 
+  opt_stylize(style = 1)
 
-# write_csv(tbl_improvements, here::here("data/final/tbl-improvements.csv"))
+write_csv(tbl_improvements, here::here("data/final/tbl-improvements.csv"))
 ```
+
+Furthermore, the addition of the opportunity to recycle different 3D printer filament types has been proposed.
 
 # Conclusions
 
-Conclusions concisely summarize findings in a bullet point format.
+Despite its small sample size, this study has already shown possible measures to improve the waste separation process at Zurich's universities, which are:
 
-survey has shown the following points, ....
+-   Increase the awareness of waste separation options for all waste types (e.g., by a recycling finder as proposed by a student)
 
--   nr 1
+-   Matching the students' willingness to walk by providing sufficient numbers of waste bins
 
--   nr 2
+By implementing the above specified measures, the total amount of municipal solid waste that is separated and recycled can be increased in the future, through mutual efforts by both, universities and students.
 
-However, improving the waste separation only solves part of the problem. To reach the full potential in terms of saving energy, CO~2~ emissions and conserving resourcesmore specific separating and a standardized design of products are necessary. (***Klotz 2022 website)***...
+As a next step, the sample size of this study could be increased to enhance its value. This would even make a division into the different institutions possible, improving the efficiency of measures.
+
+However, improving the waste separation only solves part of the problem. To reach the full potential in terms of saving energy, CO~2~ emissions and conserving resources, more specific separating and a standardized design of products are necessary. [@2022plastikrecycling]
 
 # References
